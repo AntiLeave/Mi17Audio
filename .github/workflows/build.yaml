@@ -30,7 +30,7 @@ jobs:
           targets: aarch64-linux-android
 
       - name: Setup Android NDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
 
       - name: Rust cache
         uses: swatinem/rust-cache@v2
